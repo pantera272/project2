@@ -200,3 +200,32 @@ h4 {
 	vertical-align: middle;
 	line-height: normal;
 }
+
+@media (max-width: 768px){
+	body{
+		margin-top: -22px;
+	}
+	.container-logo {
+		display: block;
+		.logo, .navigation{
+			text-align: center;
+			li{
+				padding: 5px;
+			}
+		}
+	}
+	.splash{
+		margin: 0;
+		h1 {
+			font-size: 25px;
+		}
+		p{
+			font-size: 40px;
+		}
+		button{
+			width: 120px;
+			height: 35px;
+			font-size: 10px;
+		}
+	}
+}
