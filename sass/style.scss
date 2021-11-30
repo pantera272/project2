@@ -160,3 +160,43 @@ h3 {
 		object-fit: cover;
 	}
 }
+/* footer */
+footer {
+	text-align: left;
+	height: 120px;
+	.col-3, .col-9 {
+		height: 120px;
+		line-height: 120px;
+	}
+	ul {
+		list-style-type: none;
+		display: inline-block;
+		vertical-align: middle;
+		line-height: normal;
+		li {
+			display: inline-block;
+			margin-right: 10px;
+			background-color: black;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			text-align: center;
+			a {
+				font-size: 0;
+				i {
+					font-size: 20px;
+					margin-top: 10px;
+					color: $color-one;
+				}
+			}
+		}
+	}
+}
+h4 {
+	font-family: $font-one;
+	color: $color-two;
+	font-weight: 100;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}
